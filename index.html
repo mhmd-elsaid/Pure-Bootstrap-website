@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="title icon" href="img/png-icon.jpg">
+    <title>Pure Bootstrap site</title>
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><i class="fas fa-child text-warning fa-2x"></i></a>
+
+        <button type="button" class="navbar-toggler bg-white" data-toggle="collapse" data-target="#nav"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse justify-content-between" id="nav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3"
+                        href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3"
+                        href="#skills">Skills</a></li>
+                <li class="nav-item dropdown"><a
+                        class="nav-link text-light text-uppercase font-weight-bold px-3 dropdown-toggle" href="#"
+                        data-toggle="dropdown">Projects</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#projects">project 1</a>
+                        <a class="dropdown-item" href="#projects">project 2</a>
+                        <a class="dropdown-item" href="#projects">project 3</a>
+                        <a class="dropdown-item" href="#projects">project 4</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3"
+                        href="#team">Team</a></li>
+                <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3"
+                        href="#contact">Contact</a></li>
+            </ul>
+
+            <form class="form-inline ml-3">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="search">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-light"><span
+                                class="fas fa-search text-muted"></span></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- Banner -->
+    <section>
+        <div class="container-fluid">
+            <div class="row bg-info justify-content-center align-items-center" style="height: 100vh">
+                <div class="col-sm-10 text-center">
+                    <h1 class="display-2 text-capitalize">
+                        <span class="text-warning">pure bootstrap</span>
+                        <span class="text-white font-weight-bold">website</span>
+                    </h1>
+                    <h2 class="font-italic font-weight-light text-light">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quasi, dignissimos?</h2>
+                    <a class="btn btn-warning btn-lg px-4 m-2" href="#">Press Here</a>
+                    <a class="btn btn-danger btn-lg px-4 m-2" href="#">Press Here</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end of Banner -->
+
+    <!-- Skills -->
+    <section id="skills" class="bg-light p-4">
+        <div class="container-fluid">
+            <!-- Title -->
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h4 class="text-warning display-3">Skills</h4>
+                    <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+                        necessitatibus.</p>
+                </div>
+            </div>
+            <!-- End Of Title -->
+            <div class="row text-center text-secondary">
+
+                <div class="col-md-4">
+                    <span class="fas fa-desktop fa-6x text-warning my-3"></span>
+                    <h2>Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, illum est. Modi dolore
+                        accusantium fugiat!</p>
+                    <a class="btn btn-outline-warning" href="#">learn more</a>
+                </div>
+                <div class="col-md-4">
+                    <span class="far fa-edit fa-6x text-warning m-3"></span>
+                    <h2>Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, illum est. Modi dolore
+                        accusantium fugiat!</p>
+                    <a class="btn btn-outline-warning" href="#">learn more</a>
+                </div>
+                <div class="col-md-4">
+                    <span class="fas fa-cogs fa-6x text-warning m-3"></span>
+                    <h2>Creativity</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, illum est. Modi dolore
+                        accusantium fugiat!</p>
+                    <a class="btn btn-outline-warning" href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Of Skills -->
+
+    <!-- projects -->
+    <section id="projects" class="p-5 bg-white">
+        <div class="container-fluid">
+            <!-- Title -->
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h4 class="text-warning display-3">Projects</h4>
+                    <p class="lead text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+                        necessitatibus.</p>
+                </div>
+            </div>
+            <!-- End Of Title -->
+
+            <div class="row text-center text-secondary">
+                <div class="col-md-3">
+                    <img src="img/10-ways-to-secure-funding-for-your-next-it-project.jpg" class="img-thumbnail" alt="">
+                    <h2 class="text-warning">Project one</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, blanditiis.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/Collaboriamo-con-Colleghi.jpg" class="img-thumbnail" alt="">
+                    <h2 class="text-warning">Project Two</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, blanditiis.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/Managing-a-successful-IT-project-is-easier-than-ever-with-Imagetext-_708_6056983_0_14106372_1000.jpg"
+                        class="img-thumbnail" alt="">
+                    <h2 class="text-warning">Project Three</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, blanditiis.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="img/cooperate.jpg" class="img-thumbnail" alt="">
+                    <h2 class="text-warning">Project Four</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, blanditiis.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end of projects -->
+
+
+    <!-- Team -->
+    <section id="team" class="p-5 bg-secondary">
+        <div class="container-fluid">
+            <!-- Title -->
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h4 class="text-warning display-3">Team</h4>
+                    <p class="lead text-white">Lorem ipsum dolor sit amet adipisicing elit. Aperiam,
+                        necessitatibus.</p>
+                </div>
+            </div>
+            <!-- End Of Title -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/team-member-13.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Jone</h3>
+                            <p class="card-text">Some quick example text of the card's content.</p>
+                            <ul class="list-inline float-right">
+                                <li class="list-inline-item"><button class="btn p-1"><span
+                                            class="fab fa-facebook-square fa-2x text-primary"></span></button></li>
+                                <li class="list-inline-item"><button class="btn p-1"><span
+                                            class="fab fa-twitter fa-2x text-info"></span></button></li>
+                                <li class="list-inline-item"><button class="btn p-1"><span
+                                            class="fab fa-youtube fa-2x text-danger"></span></button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/team_member_02-540x540.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Anna</h3>
+                            <p class="card-text">Some quick example text of the card's content.</p>
+                            <ul class="list-inline float-right">
+                                <li class="list-inline-item"><button class="btn p-1"><span
+                                            class="fab fa-facebook-square fa-2x text-primary"></span></button></li>
+                                <li class="list-inline-item"><button class="btn p-1"><span
+                                            class="fab fa-twitter fa-2x text-info"></span></button></li>
+                                <li class="list-inline-item"><button class="btn p-1"><span
+                                            class="fab fa-youtube fa-2x text-danger"></span></button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/team3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Mickael</h3>
+                            <p class="card-text">Some quick example text of the card's content.</p>
+                            <ul class="list-inline float-right">
+                                <li class="list-inline-item"><button class="btn p-1"><span
+                                            class="fab fa-facebook-square fa-2x text-primary"></span></button></li>
+                                <li class="list-inline-item"><button class="btn p-1"><span
+                                            class="fab fa-twitter fa-2x text-info"></span></button></li>
+                                <li class="list-inline-item"><button class="btn p-1"><span
+                                            class="fab fa-youtube fa-2x text-danger"></span></button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of Team -->
+
+    <!-- Progress -->
+    <section class="bg-white p-5">
+        <div class="container-fluid">
+            <!-- Title -->
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h4 class="text-warning display-3">Progress</h4>
+                    <p class="lead text-secondary">Lorem ipsum dolor sit amet adipisicing elit.</p>
+                </div>
+            </div>
+            <!-- End Of Title -->
+            <div class="row">
+                <div class="col-8 mx-auto">
+                    <h3>HTML</h3>
+                    <div class="progress bg-secondary">
+                        <div class="progress-bar bg-danger row" role="progressbar" style="width: 50%" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100">50%</div>
+                    </div>
+                    <h3>CSS</h3>
+                    <div class="progress bg-secondary">
+
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 70%" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100">70%</div>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="progress bg-secondary">
+
+                        <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100">90%</div>
+                    </div>
+                    <h3>Bootstrap</h3>
+                    <div class="progress bg-secondary">
+
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100">95%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of Progress -->
+
+    <!-- Contact us-->
+    <section id="contact" class="p-5 bg-light">
+        <div class="container-fluid">
+            <!-- Title -->
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h4 class="text-warning display-3">Contact Us</h4>
+                    <p class="lead text-secondary">Lorem ipsum dolor sit amet adipisicing elit.</p>
+                    <h3 class="text-secondary">Got Question ?</h3>
+                    <p class="text-secondary lead">stay connected</p>
+                </div>
+            </div>
+            <!-- End Of Title -->
+            <div class="col-8 mx-auto">
+                <form class="text-secondary">
+                    <div class="form-group">
+                        <label for="Name">Name</label>
+                        <input type="text" class="form-control" id="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-outline-warning form-control">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- end of Contact us-->
+
+    <!-- Footer -->
+    <footer class="bg-secondary p-4">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col text-center mb-3">
+                    <h2 class="text-white font-weight-light">Pure Bootstrap Project</h2>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><button class="btn p-1"><span
+                                    class="fab fa-facebook-square fa-2x text-primary"></span></button></li>
+                        <li class="list-inline-item"><button class="btn p-1"><span
+                                    class="fab fa-google-plus fa-2x text-danger"></span></button></li>
+                        <li class="list-inline-item"><button class="btn p-1"><span
+                                    class="fab fa-twitter fa-2x text-info"></span></button></li>
+                        <li class="list-inline-item"><button class="btn p-1"><span
+                                    class="fab fa-youtube fa-2x text-danger"></span></button></li>
+                    </ul>
+                    <cite class="lead text-white font-italic">&copy; Mohamed Elsaeid</cite>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of Footer -->
+
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
